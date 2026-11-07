@@ -14,7 +14,8 @@
      "area": "奈良市",
      "time": "11:45〜15:00",
      "tag": "行事",
-     "note": "雨天中止"
+     "note": "雨天中止",
+     "url": "https://narashikanko.or.jp/event/detail_10205.html"
     },
     {
      "title": "第78回 正倉院展",
@@ -22,7 +23,8 @@
      "area": "奈良市",
      "time": "8:00〜20:00",
      "tag": "展覧会",
-     "note": "11/9まで"
+     "note": "11/9まで",
+     "url": "https://narashikanko.or.jp/event/detail_10300.html"
     },
     {
      "title": "秋夜の奈良旅：夜間特別参拝",
@@ -30,7 +32,8 @@
      "area": "奈良市",
      "time": "夜間",
      "tag": "夜",
-     "note": "土曜の開催日"
+     "note": "土曜の開催日",
+     "url": "https://narashikanko.or.jp/event/detail_10298.html"
     },
     {
      "title": "奈良若草山トワイライト・夜景観賞バス",
@@ -38,7 +41,8 @@
      "area": "奈良市",
      "time": "夕方〜夜",
      "tag": "夜",
-     "note": "土曜の開催日"
+     "note": "土曜の開催日",
+     "url": "https://narashikanko.or.jp/event/detail_10326.html"
     },
     {
      "title": "曽爾高原 山灯り",
@@ -46,7 +50,8 @@
      "area": "宇陀郡曽爾村",
      "time": "",
      "tag": "自然",
-     "note": "11/23まで"
+     "note": "11/23まで",
+     "url": "https://www.walkerplus.com/event/ar0729e618506/"
     },
     {
      "title": "長谷寺「錦秋菊回廊」",
@@ -54,7 +59,8 @@
      "area": "桜井市",
      "time": "",
      "tag": "自然",
-     "note": "紅葉は色づき始め"
+     "note": "紅葉は色づき始め",
+     "url": "https://www.narakko.jp/event-pickup/"
     },
     {
      "title": "史跡牧野古墳 特別公開",
@@ -62,7 +68,8 @@
      "area": "北葛城郡広陵町",
      "time": "",
      "tag": "体験",
-     "note": "11/15まで"
+     "note": "11/15まで",
+     "url": "https://event.nsa.pref.nara.jp/events/01M476ET3S1K3FFABGQDYS0XF3"
     },
     {
      "title": "嵐山月灯路",
@@ -70,7 +77,8 @@
      "area": "京都市",
      "time": "",
      "tag": "夜",
-     "note": "11/8が最終日"
+     "note": "11/8が最終日",
+     "url": "https://www.walkerplus.com/event/ar0726e617652/"
     },
     {
      "title": "やきいもフェス OSAKA 2026",
@@ -78,7 +86,8 @@
      "area": "大阪市",
      "time": "",
      "tag": "グルメ",
-     "note": "11/8が最終日・入場無料"
+     "note": "11/8が最終日・入場無料",
+     "url": "https://www.walkerplus.com/event/ar0727e485141/"
     },
     {
      "title": "京都丹波 亀岡「夢コスモス園」",
@@ -86,7 +95,8 @@
      "area": "亀岡市",
      "time": "",
      "tag": "自然",
-     "note": "11/8が最終日"
+     "note": "11/8が最終日",
+     "url": "https://www.walkerplus.com/event/ar0726e362880/"
     },
     {
      "title": "豊臣兄弟！ 大和郡山 大河ドラマ館",
@@ -94,7 +104,8 @@
      "area": "大和郡山市",
      "time": "10:00〜17:00",
      "tag": "展覧会",
-     "note": "2027/1/22まで"
+     "note": "2027/1/22まで",
+     "url": "https://www.walkerplus.com/event/ar0729e578033/"
     }
    ]
   },
@@ -110,7 +121,8 @@
      "area": "奈良市",
      "time": "11:45〜15:00",
      "tag": "行事",
-     "note": "雨天中止"
+     "note": "雨天中止",
+     "url": "https://narashikanko.or.jp/event/detail_10205.html"
     },
     {
      "title": "第78回 正倉院展",
@@ -118,7 +130,8 @@
      "area": "奈良市",
      "time": "8:00〜20:00",
      "tag": "展覧会",
-     "note": "11/9まで"
+     "note": "11/9まで",
+     "url": "https://narashikanko.or.jp/event/detail_10300.html"
     },
     {
      "title": "曽爾高原 山灯り",
@@ -126,7 +139,8 @@
      "area": "宇陀郡曽爾村",
      "time": "",
      "tag": "自然",
-     "note": "11/23まで"
+     "note": "11/23まで",
+     "url": "https://www.walkerplus.com/event/ar0729e618506/"
     },
     {
      "title": "長谷寺「錦秋菊回廊」",
@@ -134,7 +148,8 @@
      "area": "桜井市",
      "time": "",
      "tag": "自然",
-     "note": "紅葉は色づき始め"
+     "note": "紅葉は色づき始め",
+     "url": "https://www.narakko.jp/event-pickup/"
     },
     {
      "title": "史跡牧野古墳 特別公開",
@@ -142,7 +157,8 @@
      "area": "北葛城郡広陵町",
      "time": "",
      "tag": "体験",
-     "note": "11/15まで"
+     "note": "11/15まで",
+     "url": "https://event.nsa.pref.nara.jp/events/01M476ET3S1K3FFABGQDYS0XF3"
     },
     {
      "title": "嵐山月灯路",
@@ -150,7 +166,8 @@
      "area": "京都市",
      "time": "",
      "tag": "夜",
-     "note": "11/8が最終日"
+     "note": "11/8が最終日",
+     "url": "https://www.walkerplus.com/event/ar0726e617652/"
     },
     {
      "title": "やきいもフェス OSAKA 2026",
@@ -158,7 +175,8 @@
      "area": "大阪市",
      "time": "",
      "tag": "グルメ",
-     "note": "11/8が最終日・入場無料"
+     "note": "11/8が最終日・入場無料",
+     "url": "https://www.walkerplus.com/event/ar0727e485141/"
     },
     {
      "title": "京都丹波 亀岡「夢コスモス園」",
@@ -166,7 +184,8 @@
      "area": "亀岡市",
      "time": "",
      "tag": "自然",
-     "note": "11/8が最終日"
+     "note": "11/8が最終日",
+     "url": "https://www.walkerplus.com/event/ar0726e362880/"
     },
     {
      "title": "豊臣兄弟！ 大和郡山 大河ドラマ館",
@@ -174,7 +193,8 @@
      "area": "大和郡山市",
      "time": "10:00〜17:00",
      "tag": "展覧会",
-     "note": "2027/1/22まで"
+     "note": "2027/1/22まで",
+     "url": "https://www.walkerplus.com/event/ar0729e578033/"
     }
    ]
   },
@@ -190,7 +210,8 @@
      "area": "宇陀郡曽爾村",
      "time": "",
      "tag": "自然",
-     "note": "11/23まで"
+     "note": "11/23まで",
+     "url": "https://www.walkerplus.com/event/ar0729e618506/"
     },
     {
      "title": "豊臣兄弟！ 大和郡山 大河ドラマ館",
@@ -198,7 +219,8 @@
      "area": "大和郡山市",
      "time": "10:00〜17:00",
      "tag": "展覧会",
-     "note": "2027/1/22まで"
+     "note": "2027/1/22まで",
+     "url": "https://www.walkerplus.com/event/ar0729e578033/"
     },
     {
      "title": "秋夜の奈良旅：春日大社 夜間特別参拝",
@@ -206,7 +228,8 @@
      "area": "奈良市",
      "time": "17:30〜20:00",
      "tag": "夜",
-     "note": "土曜のみ・700円・予約不要"
+     "note": "土曜のみ・700円・予約不要",
+     "url": "https://narashikanko.or.jp/event/detail_10298.html"
     },
     {
      "title": "秋夜の奈良旅：興福寺 東金堂 夜間特別参拝",
@@ -214,7 +237,8 @@
      "area": "奈良市",
      "time": "夜間",
      "tag": "夜",
-     "note": "土曜の開催日"
+     "note": "土曜の開催日",
+     "url": "https://narashikanko.or.jp/event/detail_10325.html"
     },
     {
      "title": "秋夜の奈良旅：元興寺 極楽堂 夜間特別参拝",
@@ -222,7 +246,8 @@
      "area": "奈良市",
      "time": "夜間",
      "tag": "夜",
-     "note": "土曜の開催日"
+     "note": "土曜の開催日",
+     "url": "https://narashikanko.or.jp/event/detail_10299.html"
     },
     {
      "title": "奈良若草山トワイライト・夜景観賞バス",
@@ -230,7 +255,8 @@
      "area": "奈良市",
      "time": "夕方〜夜",
      "tag": "夜",
-     "note": "要予約・大人2,000円"
+     "note": "要予約・大人2,000円",
+     "url": "https://narashikanko.or.jp/event/detail_10326.html"
     },
     {
      "title": "大安寺 秘仏・十一面観音 特別御開扉",
@@ -238,7 +264,8 @@
      "area": "奈良市",
      "time": "",
      "tag": "行事",
-     "note": "11/30まで"
+     "note": "11/30まで",
+     "url": "https://narashikanko.or.jp/event/detail_10351.html"
     },
     {
      "title": "歴史リアル謎解き「謎の城」in 郡山城",
@@ -246,7 +273,8 @@
      "area": "大和郡山市",
      "time": "",
      "tag": "体験",
-     "note": "12/20まで"
+     "note": "12/20まで",
+     "url": "https://www.walkerplus.com/event/ar0729e607261/"
     },
     {
      "title": "平城遷都「飛鳥・藤原の宮都」から平城へ",
@@ -254,7 +282,8 @@
      "area": "奈良市",
      "time": "",
      "tag": "展覧会",
-     "note": "11/29まで"
+     "note": "11/29まで",
+     "url": "https://www.walkerplus.com/event/ar0729e616044/"
     },
     {
      "title": "瑠璃光院の紅葉",
@@ -262,7 +291,8 @@
      "area": "京都市",
      "time": "",
      "tag": "自然",
-     "note": "12/13まで"
+     "note": "12/13まで",
+     "url": "https://www.walkerplus.com/event/ar0726e416761/"
     },
     {
      "title": "嵯峨野トロッコ列車 光の幻想列車",
@@ -270,7 +300,8 @@
      "area": "京都市",
      "time": "",
      "tag": "夜",
-     "note": "12/29まで"
+     "note": "12/29まで",
+     "url": "https://www.walkerplus.com/event/ar0726e449844/"
     },
     {
      "title": "木下大サーカス",
@@ -278,7 +309,8 @@
      "area": "橿原市",
      "time": "",
      "tag": "体験",
-     "note": "2027/1/31まで"
+     "note": "2027/1/31まで",
+     "url": "https://www.walkerplus.com/event/ar0729e615064/"
     }
    ]
   },
@@ -294,7 +326,8 @@
      "area": "宇陀郡曽爾村",
      "time": "",
      "tag": "自然",
-     "note": "11/23まで"
+     "note": "11/23まで",
+     "url": "https://www.walkerplus.com/event/ar0729e618506/"
     },
     {
      "title": "豊臣兄弟！ 大和郡山 大河ドラマ館",
@@ -302,7 +335,8 @@
      "area": "大和郡山市",
      "time": "10:00〜17:00",
      "tag": "展覧会",
-     "note": "2027/1/22まで"
+     "note": "2027/1/22まで",
+     "url": "https://www.walkerplus.com/event/ar0729e578033/"
     },
     {
      "title": "大安寺 秘仏・十一面観音 特別御開扉",
@@ -310,7 +344,8 @@
      "area": "奈良市",
      "time": "",
      "tag": "行事",
-     "note": "11/30まで"
+     "note": "11/30まで",
+     "url": "https://narashikanko.or.jp/event/detail_10351.html"
     },
     {
      "title": "歴史リアル謎解き「謎の城」in 郡山城",
@@ -318,7 +353,8 @@
      "area": "大和郡山市",
      "time": "",
      "tag": "体験",
-     "note": "12/20まで"
+     "note": "12/20まで",
+     "url": "https://www.walkerplus.com/event/ar0729e607261/"
     },
     {
      "title": "平城遷都「飛鳥・藤原の宮都」から平城へ",
@@ -326,7 +362,8 @@
      "area": "奈良市",
      "time": "",
      "tag": "展覧会",
-     "note": "11/29まで"
+     "note": "11/29まで",
+     "url": "https://www.walkerplus.com/event/ar0729e616044/"
     },
     {
      "title": "瑠璃光院の紅葉",
@@ -334,7 +371,8 @@
      "area": "京都市",
      "time": "",
      "tag": "自然",
-     "note": "12/13まで"
+     "note": "12/13まで",
+     "url": "https://www.walkerplus.com/event/ar0726e416761/"
     },
     {
      "title": "嵯峨野トロッコ列車 光の幻想列車",
@@ -342,7 +380,8 @@
      "area": "京都市",
      "time": "",
      "tag": "夜",
-     "note": "12/29まで"
+     "note": "12/29まで",
+     "url": "https://www.walkerplus.com/event/ar0726e449844/"
     },
     {
      "title": "木下大サーカス",
@@ -350,7 +389,8 @@
      "area": "橿原市",
      "time": "",
      "tag": "体験",
-     "note": "2027/1/31まで"
+     "note": "2027/1/31まで",
+     "url": "https://www.walkerplus.com/event/ar0729e615064/"
     }
    ]
   }
