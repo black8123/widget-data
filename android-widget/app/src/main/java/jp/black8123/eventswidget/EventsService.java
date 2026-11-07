@@ -72,6 +72,7 @@ public class EventsService extends RemoteViewsService {
         String l1 = "";
         String l2 = "";
         String tag = "";
+        String pref = "";
         String url = "";
     }
 
@@ -161,6 +162,7 @@ public class EventsService extends RemoteViewsService {
                     if (!note.isEmpty()) sb.append("  ※").append(note);
                     r.l2 = sb.toString();
                     r.tag = e.optString("tag");
+                    r.pref = e.optString("pref");
                     r.url = e.optString("url");
                     l.add(r);
                 }
@@ -193,6 +195,10 @@ public class EventsService extends RemoteViewsService {
                 return rv;
             }
             RemoteViews rv = new RemoteViews(ctx.getPackageName(), R.layout.item_event);
+            rv.setTextViewText(R.id.pref, r.pref.isEmpty() ? "" : r.pref.substring(0, 1).replace("大", "阪"));
+            int bg = r.pref.equals("京都") ? R.drawable.pref_kyoto
+                    : r.pref.equals("大阪") ? R.drawable.pref_osaka : R.drawable.pref_nara;
+            rv.setInt(R.id.pref, "setBackgroundResource", bg);
             rv.setTextViewText(R.id.tag, r.tag);
             rv.setTextColor(R.id.tag, tagColor(r.tag));
             rv.setTextViewText(R.id.title, r.l1);
