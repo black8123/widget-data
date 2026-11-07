@@ -6,19 +6,14 @@
     android:orientation="horizontal"
     android:paddingTop="3dp"
     android:paddingBottom="3dp">
-    <TextView
+    <View
         android:id="@+id/pref"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="5dp"
-        android:gravity="center"
-        android:textColor="#10201A"
-        android:textSize="11sp"
-        android:textStyle="bold" />
+        android:layout_width="4dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="6dp" />
     <TextView
         android:id="@+id/tag"
-        android:layout_width="36dp"
+        android:layout_width="38dp"
         android:layout_height="wrap_content"
         android:paddingTop="1dp"
         android:textSize="11sp"

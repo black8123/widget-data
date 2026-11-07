@@ -94,7 +94,7 @@ public class EventsService extends RemoteViewsService {
             long ts = sp.getLong("ts", 0);
             boolean force = sp.getBoolean("force", false);
             long now = System.currentTimeMillis();
-            if (json == null || force || ts < lastWeeklyBoundary()) {
+            if (json == null || force || ts < lastWeeklyBoundary() || !json.contains("\"pref\"")) {
                 try {
                     json = fetch();
                     sp.edit().putString("json", json).putLong("ts", now).putBoolean("force", false).apply();
@@ -195,7 +195,6 @@ public class EventsService extends RemoteViewsService {
                 return rv;
             }
             RemoteViews rv = new RemoteViews(ctx.getPackageName(), R.layout.item_event);
-            rv.setTextViewText(R.id.pref, r.pref.isEmpty() ? "" : r.pref.substring(0, 1).replace("大", "阪"));
             int bg = r.pref.equals("京都") ? R.drawable.pref_kyoto
                     : r.pref.equals("大阪") ? R.drawable.pref_osaka : R.drawable.pref_nara;
             rv.setInt(R.id.pref, "setBackgroundResource", bg);
