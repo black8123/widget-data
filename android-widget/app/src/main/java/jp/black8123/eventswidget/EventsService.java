@@ -1,7 +1,10 @@
 package jp.black8123.eventswidget;
 
+import android.appwidget.AppWidgetManager;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.net.Uri;
 import android.view.View;
@@ -22,18 +25,41 @@ import java.util.List;
 
 public class EventsService extends RemoteViewsService {
     static final String DATA_URL = "https://black8123.github.io/widget-data/events_mobile.json";
+    static final long STALE_MS = 10 * 60 * 1000L;
 
     @Override
     public RemoteViewsFactory onGetViewFactory(Intent intent) {
         return new Factory(getApplicationContext());
     }
 
+    /** 今日以降の日だけを返す */
+    static List<JSONObject> days(String json) {
+        List<JSONObject> out = new ArrayList<>();
+        if (json == null) return out;
+        try {
+            JSONArray arr = new JSONObject(json).getJSONArray("days");
+            String today = LocalDate.now(ZoneId.of("Asia/Tokyo")).toString();
+            for (int i = 0; i < arr.length(); i++) {
+                JSONObject d = arr.getJSONObject(i);
+                if (d.getString("date").compareTo(today) >= 0) out.add(d);
+            }
+        } catch (Exception ignored) { }
+        return out;
+    }
+
+    static List<String> labels(String json) {
+        List<String> l = new ArrayList<>();
+        for (JSONObject d : days(json)) {
+            l.add(d.optString("label"));
+            if (l.size() >= 4) break;
+        }
+        return l;
+    }
+
     static class Row {
         boolean header;
-        boolean today;
         String l1 = "";
         String l2 = "";
-        String l3 = "";
         String tag = "";
         String url = "";
     }
@@ -51,13 +77,27 @@ public class EventsService extends RemoteViewsService {
 
         @Override
         public void onDataSetChanged() {
-            try {
-                rows = parse(fetch());
-            } catch (Exception e) {
-                if (rows.isEmpty()) {
-                    rows = message("データを読み込めませんでした。右上の ↻ で再読み込みできます。");
+            SharedPreferences sp = ctx.getSharedPreferences("ev", Context.MODE_PRIVATE);
+            String json = sp.getString("json", null);
+            long ts = sp.getLong("ts", 0);
+            boolean force = sp.getBoolean("force", false);
+            long now = System.currentTimeMillis();
+            if (json == null || force || now - ts > STALE_MS) {
+                try {
+                    json = fetch();
+                    sp.edit().putString("json", json).putLong("ts", now).putBoolean("force", false).apply();
+                } catch (Exception e) {
+                    sp.edit().putBoolean("force", false).apply();
                 }
             }
+            if (json == null) {
+                rows = message("データを読み込めませんでした。右上の ↻ で再読み込みできます。");
+            } else {
+                rows = build(json, sp.getInt("sel", 0));
+            }
+            AppWidgetManager m = AppWidgetManager.getInstance(ctx);
+            int[] ids = m.getAppWidgetIds(new ComponentName(ctx, EventsWidgetProvider.class));
+            EventsWidgetProvider.applyTabs(ctx, m, ids);
         }
 
         private String fetch() throws Exception {
@@ -86,21 +126,15 @@ public class EventsService extends RemoteViewsService {
             return l;
         }
 
-        private List<Row> parse(String json) throws Exception {
-            JSONObject o = new JSONObject(json);
-            JSONArray days = o.getJSONArray("days");
-            String today = LocalDate.now(ZoneId.of("Asia/Tokyo")).toString();
+        private List<Row> build(String json, int sel) {
+            List<JSONObject> ds = days(json);
+            if (ds.isEmpty()) {
+                return message("今週末の分は更新待ちです。毎週月曜に更新されます。");
+            }
+            int idx = Math.max(0, Math.min(sel, Math.min(ds.size(), 4) - 1));
             List<Row> l = new ArrayList<>();
-            for (int i = 0; i < days.length(); i++) {
-                JSONObject d = days.getJSONObject(i);
-                String date = d.getString("date");
-                if (date.compareTo(today) < 0) continue;
-                Row h = new Row();
-                h.header = true;
-                h.l1 = d.getString("label");
-                h.today = date.equals(today);
-                l.add(h);
-                JSONArray evs = d.getJSONArray("events");
+            try {
+                JSONArray evs = ds.get(idx).getJSONArray("events");
                 for (int k = 0; k < evs.length(); k++) {
                     JSONObject e = evs.getJSONObject(k);
                     Row r = new Row();
@@ -108,20 +142,19 @@ public class EventsService extends RemoteViewsService {
                     String time = e.optString("time");
                     String place = e.optString("place");
                     String area = e.optString("area");
+                    String note = e.optString("note");
                     StringBuilder sb = new StringBuilder();
                     if (!time.isEmpty()) sb.append(time).append("  ");
                     sb.append(place);
                     if (!area.isEmpty()) sb.append(" ・").append(area);
+                    if (!note.isEmpty()) sb.append("  ※").append(note);
                     r.l2 = sb.toString();
-                    r.l3 = e.optString("note");
                     r.tag = e.optString("tag");
                     r.url = e.optString("url");
                     l.add(r);
                 }
-            }
-            if (l.isEmpty()) {
-                return message("今週末の分は更新待ちです。毎週月曜に更新されます。");
-            }
+            } catch (Exception ignored) { }
+            if (l.isEmpty()) return message("この日のイベントはありません。");
             return l;
         }
 
@@ -146,7 +179,6 @@ public class EventsService extends RemoteViewsService {
             if (r.header) {
                 RemoteViews rv = new RemoteViews(ctx.getPackageName(), R.layout.item_day);
                 rv.setTextViewText(R.id.day_label, r.l1);
-                rv.setViewVisibility(R.id.day_today, r.today ? View.VISIBLE : View.GONE);
                 return rv;
             }
             RemoteViews rv = new RemoteViews(ctx.getPackageName(), R.layout.item_event);
@@ -154,8 +186,6 @@ public class EventsService extends RemoteViewsService {
             rv.setTextColor(R.id.tag, tagColor(r.tag));
             rv.setTextViewText(R.id.title, r.l1);
             rv.setTextViewText(R.id.sub, r.l2);
-            rv.setTextViewText(R.id.note, r.l3);
-            rv.setViewVisibility(R.id.note, r.l3.isEmpty() ? View.GONE : View.VISIBLE);
             if (!r.url.isEmpty()) {
                 Intent fill = new Intent();
                 fill.setData(Uri.parse(r.url));
