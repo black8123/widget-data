@@ -11,11 +11,20 @@
         android:gravity="center_vertical"
         android:orientation="horizontal">
         <TextView
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:text="週末イベント"
             android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/header_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="start"
+            android:paddingStart="8dp"
+            android:textColor="#8FD3B6"
             android:textSize="16sp"
             android:textStyle="bold" />
         <TextView
