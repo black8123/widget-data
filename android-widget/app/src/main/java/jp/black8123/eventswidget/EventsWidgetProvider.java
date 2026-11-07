@@ -21,7 +21,6 @@ public class EventsWidgetProvider extends AppWidgetProvider {
 
     @Override
     public void onUpdate(Context c, AppWidgetManager m, int[] ids) {
-        c.getSharedPreferences("ev", Context.MODE_PRIVATE).edit().putBoolean("force", true).apply();
         for (int id : ids) {
             update(c, m, id);
         }

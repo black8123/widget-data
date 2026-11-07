@@ -18,14 +18,25 @@ import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.time.DayOfWeek;
 import java.time.LocalDate;
+import java.time.ZonedDateTime;
+import java.time.temporal.TemporalAdjusters;
 import java.time.ZoneId;
 import java.util.ArrayList;
 import java.util.List;
 
 public class EventsService extends RemoteViewsService {
     static final String DATA_URL = "https://black8123.github.io/widget-data/events_mobile.json";
-    static final long STALE_MS = 10 * 60 * 1000L;
+
+    /** 直近の「月曜 9:30（日本時間）」の時刻。これより前に取得したデータは、週次の自動更新の対象 */
+    static long lastWeeklyBoundary() {
+        ZonedDateTime now = ZonedDateTime.now(ZoneId.of("Asia/Tokyo"));
+        ZonedDateTime b = now.with(TemporalAdjusters.previousOrSame(DayOfWeek.MONDAY))
+                .withHour(9).withMinute(30).withSecond(0).withNano(0);
+        if (b.isAfter(now)) b = b.minusWeeks(1);
+        return b.toInstant().toEpochMilli();
+    }
 
     @Override
     public RemoteViewsFactory onGetViewFactory(Intent intent) {
@@ -82,7 +93,7 @@ public class EventsService extends RemoteViewsService {
             long ts = sp.getLong("ts", 0);
             boolean force = sp.getBoolean("force", false);
             long now = System.currentTimeMillis();
-            if (json == null || force || now - ts > STALE_MS) {
+            if (json == null || force || ts < lastWeeklyBoundary()) {
                 try {
                     json = fetch();
                     sp.edit().putString("json", json).putLong("ts", now).putBoolean("force", false).apply();
