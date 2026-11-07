@@ -65,7 +65,6 @@ public class EventsWidgetProvider extends AppWidgetProvider {
         List<String> labels = EventsService.labels(sp.getString("json", null));
         int sel = Math.min(sp.getInt("sel", 0), Math.max(0, labels.size() - 1));
         RemoteViews rv = new RemoteViews(c.getPackageName(), R.layout.widget);
-        rv.setTextViewText(R.id.header_date, labels.isEmpty() ? "" : labels.get(sel));
         for (int i = 0; i < TAB_IDS.length; i++) {
             if (i < labels.size()) {
                 rv.setViewVisibility(TAB_IDS[i], View.VISIBLE);
