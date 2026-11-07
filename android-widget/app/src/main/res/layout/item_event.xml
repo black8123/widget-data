@@ -6,10 +6,11 @@
     android:orientation="horizontal"
     android:paddingTop="3dp"
     android:paddingBottom="3dp">
-    <View
+    <TextView
         android:id="@+id/pref"
         android:layout_width="4dp"
-        android:layout_height="match_parent"
+        android:layout_height="34dp"
+        android:layout_marginTop="1dp"
         android:layout_marginEnd="6dp" />
     <TextView
         android:id="@+id/tag"
