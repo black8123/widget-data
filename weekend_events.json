@@ -1,0 +1,1093 @@
+{
+  "version": 1,
+  "weekend": "2026-11-07",
+  "generated": "2026-11-07T12:00:00+09:00",
+  "area": "奈良・京都・大阪",
+  "note": "日時は公式ページで必ず確認してください。雨天などで変更になる場合があります。",
+  "events": [
+    {
+      "title": "古式「鹿の角きり」",
+      "place": "春日大社 鹿苑 角きり場",
+      "area": "奈良市",
+      "time": "11:45〜15:00",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08"
+      ],
+      "tag": "行事",
+      "note": "雨天中止",
+      "url": "https://narashikanko.or.jp/event/detail_10205.html",
+      "sources": [
+        "https://narashikanko.or.jp/event/detail_10205.html",
+        "https://naradeer.com/learning/img/kawaraban/kawaraban_2026_01.pdf"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "第78回 正倉院展",
+      "place": "奈良国立博物館",
+      "area": "奈良市",
+      "time": "8:00〜20:00",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08"
+      ],
+      "tag": "展覧会",
+      "note": "11/9まで",
+      "url": "https://narashikanko.or.jp/event/detail_10300.html",
+      "sources": [
+        "https://narashikanko.or.jp/event/detail_10300.html",
+        "https://bijutsutecho.com/exhibitions/18867"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "秋夜の奈良旅：夜間特別参拝",
+      "place": "春日大社・興福寺ほか5社寺",
+      "area": "奈良市",
+      "time": "夜間",
+      "dates": [
+        "2026-11-07"
+      ],
+      "tag": "夜",
+      "note": "土曜の開催日",
+      "url": "https://narashikanko.or.jp/event/detail_10298.html",
+      "sources": [
+        "https://narashikanko.or.jp/event/detail_10298.html",
+        "https://narashikanko.or.jp/event/detail_10325.html",
+        "https://narashikanko.or.jp/event/detail_10299.html",
+        "https://narashikanko.or.jp/event/detail_10333.html",
+        "https://narashikanko.or.jp/event/detail_10334.html"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "奈良若草山トワイライト・夜景観賞バス",
+      "place": "若草山",
+      "area": "奈良市",
+      "time": "夕方〜夜",
+      "dates": [
+        "2026-11-07"
+      ],
+      "tag": "夜",
+      "note": "土曜の開催日",
+      "url": "https://narashikanko.or.jp/event/detail_10326.html",
+      "sources": [
+        "https://narashikanko.or.jp/event/detail_10326.html"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "曽爾高原 山灯り",
+      "place": "曽爾高原 お亀池周辺",
+      "area": "宇陀郡曽爾村",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "自然",
+      "note": "11/23まで",
+      "url": "https://www.walkerplus.com/event/ar0729e618506/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e618506/",
+        "https://event.nsa.pref.nara.jp/events/01KZ3FA0AAB8GCNPBEPS47068P"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "長谷寺「錦秋菊回廊」",
+      "place": "長谷寺",
+      "area": "桜井市",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08"
+      ],
+      "tag": "自然",
+      "note": "紅葉は色づき始め",
+      "url": "https://www.narakko.jp/event-pickup/",
+      "sources": [
+        "https://www.narakko.jp/event-pickup/",
+        "https://tenki.jp/kouyou/6/32/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "史跡牧野古墳 特別公開",
+      "place": "史跡牧野古墳",
+      "area": "北葛城郡広陵町",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08"
+      ],
+      "tag": "体験",
+      "note": "11/15まで",
+      "url": "https://event.nsa.pref.nara.jp/events/01M476ET3S1K3FFABGQDYS0XF3",
+      "sources": [
+        "https://event.nsa.pref.nara.jp/events/01M476ET3S1K3FFABGQDYS0XF3"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "嵐山月灯路",
+      "place": "嵐山（京都市右京区）",
+      "area": "京都市",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08"
+      ],
+      "tag": "夜",
+      "note": "11/8が最終日",
+      "url": "https://www.walkerplus.com/event/ar0726e617652/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0726e617652/"
+      ],
+      "pref": "京都"
+    },
+    {
+      "title": "やきいもフェス OSAKA 2026",
+      "place": "大阪城公園",
+      "area": "大阪市",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08"
+      ],
+      "tag": "グルメ",
+      "note": "11/8が最終日・入場無料",
+      "url": "https://www.walkerplus.com/event/ar0727e485141/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0727e485141/"
+      ],
+      "pref": "大阪"
+    },
+    {
+      "title": "京都丹波 亀岡「夢コスモス園」",
+      "place": "亀岡運動公園体育館 東側",
+      "area": "亀岡市",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08"
+      ],
+      "tag": "自然",
+      "note": "11/8が最終日",
+      "url": "https://www.walkerplus.com/event/ar0726e362880/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0726e362880/"
+      ],
+      "pref": "京都"
+    },
+    {
+      "title": "豊臣兄弟！ 大和郡山 大河ドラマ館",
+      "place": "DMG MORI やまと郡山城ホール",
+      "area": "大和郡山市",
+      "time": "10:00〜17:00",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "展覧会",
+      "note": "2027/1/22まで",
+      "url": "https://www.walkerplus.com/event/ar0729e578033/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e578033/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "秋夜の奈良旅：春日大社 夜間特別参拝",
+      "place": "春日大社 国宝・御本殿",
+      "area": "奈良市",
+      "time": "17:30〜20:00",
+      "dates": [
+        "2026-11-14"
+      ],
+      "tag": "夜",
+      "note": "土曜のみ・700円・予約不要",
+      "url": "https://narashikanko.or.jp/event/detail_10298.html",
+      "sources": [
+        "https://narashikanko.or.jp/event/detail_10298.html",
+        "https://narashikanko.or.jp/event/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "秋夜の奈良旅：興福寺 東金堂 夜間特別参拝",
+      "place": "興福寺 国宝・東金堂",
+      "area": "奈良市",
+      "time": "夜間",
+      "dates": [
+        "2026-11-14"
+      ],
+      "tag": "夜",
+      "note": "土曜の開催日",
+      "url": "https://narashikanko.or.jp/event/detail_10325.html",
+      "sources": [
+        "https://narashikanko.or.jp/event/detail_10325.html",
+        "https://narashikanko.or.jp/event/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "秋夜の奈良旅：元興寺 極楽堂 夜間特別参拝",
+      "place": "元興寺 国宝・極楽堂",
+      "area": "奈良市",
+      "time": "夜間",
+      "dates": [
+        "2026-11-14"
+      ],
+      "tag": "夜",
+      "note": "土曜の開催日",
+      "url": "https://narashikanko.or.jp/event/detail_10299.html",
+      "sources": [
+        "https://narashikanko.or.jp/event/detail_10299.html",
+        "https://narashikanko.or.jp/event/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "奈良若草山トワイライト・夜景観賞バス",
+      "place": "若草山",
+      "area": "奈良市",
+      "time": "夕方〜夜",
+      "dates": [
+        "2026-11-14"
+      ],
+      "tag": "夜",
+      "note": "要予約・大人2,000円",
+      "url": "https://narashikanko.or.jp/event/detail_10326.html",
+      "sources": [
+        "https://narashikanko.or.jp/event/detail_10326.html"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "大安寺 秘仏・十一面観音 特別御開扉",
+      "place": "大安寺",
+      "area": "奈良市",
+      "time": "",
+      "dates": [
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "行事",
+      "note": "11/30まで",
+      "url": "https://narashikanko.or.jp/event/detail_10351.html",
+      "sources": [
+        "https://narashikanko.or.jp/event/detail_10351.html"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "歴史リアル謎解き「謎の城」in 郡山城",
+      "place": "郡山城跡・城下町",
+      "area": "大和郡山市",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "体験",
+      "note": "12/20まで",
+      "url": "https://www.walkerplus.com/event/ar0729e607261/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e607261/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "平城遷都「飛鳥・藤原の宮都」から平城へ",
+      "place": "平城宮いざない館",
+      "area": "奈良市",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "展覧会",
+      "note": "11/29まで",
+      "url": "https://www.walkerplus.com/event/ar0729e616044/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e616044/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "瑠璃光院の紅葉",
+      "place": "瑠璃光院（京都市左京区）",
+      "area": "京都市",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "自然",
+      "note": "12/13まで",
+      "url": "https://www.walkerplus.com/event/ar0726e416761/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0726e416761/"
+      ],
+      "pref": "京都"
+    },
+    {
+      "title": "嵯峨野トロッコ列車 光の幻想列車",
+      "place": "嵯峨野トロッコ列車",
+      "area": "京都市",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "夜",
+      "note": "12/29まで",
+      "url": "https://www.walkerplus.com/event/ar0726e449844/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0726e449844/"
+      ],
+      "pref": "京都"
+    },
+    {
+      "title": "木下大サーカス",
+      "place": "イオンモール橿原",
+      "area": "橿原市",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "体験",
+      "note": "2027/1/31まで",
+      "url": "https://www.walkerplus.com/event/ar0729e615064/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e615064/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "奈良公園の紅葉",
+      "place": "奈良公園",
+      "area": "奈良市",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "自然",
+      "note": "12月上旬まで",
+      "url": "https://www.walkerplus.com/event/ar0729e12962/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e12962/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "秋のバラまつり",
+      "place": "おふさ観音",
+      "area": "橿原市",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "自然",
+      "note": "11/30まで",
+      "url": "https://www.walkerplus.com/event/ar0729e517773/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e517773/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "吉野山(下千本)の紅葉",
+      "place": "吉野山 下千本",
+      "area": "吉野町",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "自然",
+      "note": "11月下旬まで",
+      "url": "https://www.walkerplus.com/event/ar0729e154807/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e154807/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "吉野山(中千本)の紅葉",
+      "place": "吉野山 中千本",
+      "area": "吉野町",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "自然",
+      "note": "11月下旬まで",
+      "url": "https://www.walkerplus.com/event/ar0729e154808/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e154808/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "円成寺の紅葉",
+      "place": "円成寺",
+      "area": "奈良市",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "自然",
+      "note": "11月下旬まで",
+      "url": "https://www.walkerplus.com/event/ar0729e418605/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e418605/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "信貴山 朝護孫子寺の紅葉",
+      "place": "朝護孫子寺",
+      "area": "平群町",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "自然",
+      "note": "12月上旬まで",
+      "url": "https://www.walkerplus.com/event/ar0729e154706/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e154706/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "天理市イチョウ並木の紅葉",
+      "place": "天理市イチョウ並木",
+      "area": "天理市",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "自然",
+      "note": "11月下旬まで",
+      "url": "https://www.walkerplus.com/event/ar0729e416974/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e416974/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "【紅葉】奈良の名勝 依水園",
+      "place": "依水園",
+      "area": "奈良市",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "自然",
+      "note": "12月上旬まで",
+      "url": "https://www.walkerplus.com/event/ar0729e622131/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e622131/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "如意輪寺 菊まつり",
+      "place": "如意輪寺",
+      "area": "吉野町",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "自然",
+      "note": "11/22まで",
+      "url": "https://www.walkerplus.com/event/ar0729e621709/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e621709/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "特別展 地上の天堂 杭州と呉越国",
+      "place": "大和文華館",
+      "area": "奈良市",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "展覧会",
+      "note": "12/6まで",
+      "url": "https://www.walkerplus.com/event/ar0729e616212/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e616212/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "没後25年 上村松篁展",
+      "place": "松伯美術館",
+      "area": "奈良市",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "展覧会",
+      "note": "12/20まで",
+      "url": "https://www.walkerplus.com/event/ar0729e606999/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e606999/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "ナンシー関の消しゴムハンコ展",
+      "place": "奈良市美術館",
+      "area": "奈良市",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "展覧会",
+      "note": "11/29まで",
+      "url": "https://www.walkerplus.com/event/ar0729e618700/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e618700/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "特別展「高照らすみやこ」",
+      "place": "奈良県立万葉文化館",
+      "area": "明日香村",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "展覧会",
+      "note": "12/6まで",
+      "url": "https://www.walkerplus.com/event/ar0729e614552/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e614552/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "安倍文殊院 秋の寺宝展",
+      "place": "安倍文殊院",
+      "area": "桜井市",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "展覧会",
+      "note": "11/30まで",
+      "url": "https://www.walkerplus.com/event/ar0729e580401/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e580401/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "當麻寺中之坊 秋の寺宝展",
+      "place": "當麻寺 中之坊",
+      "area": "葛城市",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "展覧会",
+      "note": "11/30まで",
+      "url": "https://www.walkerplus.com/event/ar0729e618307/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e618307/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "安倍文殊院 七五三参り",
+      "place": "安倍文殊院",
+      "area": "桜井市",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "行事",
+      "note": "11/30まで",
+      "url": "https://www.walkerplus.com/event/ar0729e580416/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e580416/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "養老瑞水行幸記（歴史体験演劇）",
+      "place": "平城宮いざない館",
+      "area": "奈良市",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "体験",
+      "note": "2027/3/20まで",
+      "url": "https://www.walkerplus.com/event/ar0729e616058/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e616058/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "まほろば飛鳥・あおによし平城 クイズスタンプラリー",
+      "place": "平城宮跡歴史公園",
+      "area": "奈良市",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "体験",
+      "note": "12/27まで",
+      "url": "https://www.walkerplus.com/event/ar0729e616264/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e616264/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "奥大和謎解きラリー",
+      "place": "奥大和エリア",
+      "area": "高取町",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "体験",
+      "note": "2027/1/31まで",
+      "url": "https://www.walkerplus.com/event/ar0729e613602/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e613602/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "奈良ホテル 漆黒のアフタヌーン",
+      "place": "奈良ホテル",
+      "area": "奈良市",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "グルメ",
+      "note": "11/15まで",
+      "url": "https://www.walkerplus.com/event/ar0729e444456/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e444456/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "「平城宮跡探検隊」どんぐりひろい",
+      "place": "平城宮跡歴史公園 朱雀門前",
+      "area": "奈良市",
+      "time": "",
+      "dates": [
+        "2026-11-08"
+      ],
+      "tag": "体験",
+      "note": "",
+      "url": "https://www.walkerplus.com/event/ar0729e616053/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e616053/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "天武天皇例大祭",
+      "place": "大峯山護持院 櫻本坊",
+      "area": "吉野町",
+      "time": "",
+      "dates": [
+        "2026-11-08"
+      ],
+      "tag": "行事",
+      "note": "",
+      "url": "https://www.walkerplus.com/event/ar0729e621712/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e621712/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "記念講演会 古代絵画と近代日本画",
+      "place": "奈良県立万葉文化館",
+      "area": "明日香村",
+      "time": "",
+      "dates": [
+        "2026-11-08"
+      ],
+      "tag": "展覧会",
+      "note": "",
+      "url": "https://www.walkerplus.com/event/ar0729e614456/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e614456/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "サイエンスショー 木村隆良先生",
+      "place": "上牧町文化センター",
+      "area": "上牧町",
+      "time": "",
+      "dates": [
+        "2026-11-08"
+      ],
+      "tag": "体験",
+      "note": "",
+      "url": "https://www.walkerplus.com/event/ar0729e618399/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e618399/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "天理図書館 開館96周年記念展",
+      "place": "天理大学附属天理図書館",
+      "area": "天理市",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08"
+      ],
+      "tag": "展覧会",
+      "note": "11/8まで",
+      "url": "https://www.walkerplus.com/event/ar0729e611025/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0729e611025/"
+      ],
+      "pref": "奈良"
+    },
+    {
+      "title": "怪々YOKAI祭 2026",
+      "place": "太秦映画村",
+      "area": "京都市右京区",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "体験",
+      "note": "11/29まで",
+      "url": "https://www.walkerplus.com/event/ar0726e160721/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0726e160721/"
+      ],
+      "pref": "京都"
+    },
+    {
+      "title": "特別展 源氏物語 王朝のかがやき",
+      "place": "京都国立博物館",
+      "area": "京都市東山区",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "展覧会",
+      "note": "11/29まで",
+      "url": "https://www.walkerplus.com/event/ar0726e610723/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0726e610723/"
+      ],
+      "pref": "京都"
+    },
+    {
+      "title": "白龍園の紅葉 秋の特別公開",
+      "place": "白龍園",
+      "area": "京都市左京区",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "自然",
+      "note": "12/6まで",
+      "url": "https://www.walkerplus.com/event/ar0726e392492/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0726e392492/"
+      ],
+      "pref": "京都"
+    },
+    {
+      "title": "平岡八幡宮 花の天井 秋の特別拝観",
+      "place": "平岡八幡宮",
+      "area": "京都市右京区",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "行事",
+      "note": "11/30まで",
+      "url": "https://www.walkerplus.com/event/ar0726e612107/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0726e612107/"
+      ],
+      "pref": "京都"
+    },
+    {
+      "title": "没後100年 クロード・モネ展",
+      "place": "大山崎山荘美術館",
+      "area": "大山崎町",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "展覧会",
+      "note": "2027/4/11まで",
+      "url": "https://www.walkerplus.com/event/ar0726e583819/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0726e583819/"
+      ],
+      "pref": "京都"
+    },
+    {
+      "title": "京丹波栗アフタヌーンティー",
+      "place": "HOTEL THE MITSUI KYOTO",
+      "area": "京都市中京区",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "グルメ",
+      "note": "11/30まで",
+      "url": "https://www.walkerplus.com/event/ar0726e559798/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0726e559798/"
+      ],
+      "pref": "京都"
+    },
+    {
+      "title": "ENLIGHTENMENT JAPAN",
+      "place": "大阪市立美術館",
+      "area": "大阪市天王寺区",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "展覧会",
+      "note": "11/29まで",
+      "url": "https://www.walkerplus.com/event/ar0727e612701/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0727e612701/"
+      ],
+      "pref": "大阪"
+    },
+    {
+      "title": "ハルカス300×名探偵コナン",
+      "place": "ハルカス300",
+      "area": "大阪市阿倍野区",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "体験",
+      "note": "11/29まで",
+      "url": "https://www.walkerplus.com/event/ar0727e604942/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0727e604942/"
+      ],
+      "pref": "大阪"
+    },
+    {
+      "title": "「ALL OF EVANGELION」30周年記念展",
+      "place": "ひらかたパーク",
+      "area": "枚方市",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "展覧会",
+      "note": "2027/1/11まで",
+      "url": "https://www.walkerplus.com/event/ar0727e610718/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0727e610718/"
+      ],
+      "pref": "大阪"
+    },
+    {
+      "title": "細田守の原点/展",
+      "place": "グランフロント大阪",
+      "area": "大阪市北区",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "展覧会",
+      "note": "2027/1/4まで",
+      "url": "https://www.walkerplus.com/event/ar0727e608142/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0727e608142/"
+      ],
+      "pref": "大阪"
+    },
+    {
+      "title": "北斎・広重づくし",
+      "place": "大阪浮世絵美術館",
+      "area": "大阪市中央区",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "展覧会",
+      "note": "2027/1/24まで",
+      "url": "https://www.walkerplus.com/event/ar0727e601801/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0727e601801/"
+      ],
+      "pref": "大阪"
+    },
+    {
+      "title": "中之島 水上さんぽガイドツアー",
+      "place": "中之島公園 ばらぞの橋",
+      "area": "大阪市北区",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "体験",
+      "note": "11/15まで",
+      "url": "https://www.walkerplus.com/event/ar0727e608675/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0727e608675/"
+      ],
+      "pref": "大阪"
+    },
+    {
+      "title": "シャインマスカットアフタヌーンティー",
+      "place": "リーガロイヤルホテル大阪",
+      "area": "大阪市北区",
+      "time": "",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15"
+      ],
+      "tag": "グルメ",
+      "note": "11/23まで",
+      "url": "https://www.walkerplus.com/event/ar0727e414721/",
+      "sources": [
+        "https://www.walkerplus.com/event/ar0727e414721/"
+      ],
+      "pref": "大阪"
+    }
+  ]
+}
